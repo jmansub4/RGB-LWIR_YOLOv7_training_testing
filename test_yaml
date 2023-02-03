@@ -1,0 +1,5 @@
+train: /content/gdrive/MyDrive/yolov7/test
+val: /content/gdrive/MyDrive/yolov7/test
+test: /content/gdrive/MyDrive/yolov7/test
+nc: 2
+names: ['car','truck']
