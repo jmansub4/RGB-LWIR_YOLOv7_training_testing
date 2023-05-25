@@ -5,7 +5,7 @@ Object detection models commonly focus on utilizing the visible spectrum via Red
 
 Due to various limitations with this approach in low visibility settings, there is growing interest in fusing RGB with thermal Long Wave Infrared (LWIR) (7.5–13.5 µm) images to increase object detection performance. 
 
-## Comparative example of a nighttime scene with a blended RGB-LWIR approach on the left, and a traditional RGB image on the right. 
+#### Comparative example of a nighttime scene with a blended RGB-LWIR approach on the left, and a traditional RGB image on the right. 
 <p align="center">
   <img src="/figures/proposed_solution.png" />
 </p>
@@ -16,15 +16,15 @@ This repository provides the code materials for a paper which undertakes such an
 
 Citation
 ---------
-
 - Gallagher, J.E. and Oughton, E.J. (2023) ‘Assessing thermal imagery integration into object detection methods on air-based collection platforms’, Scientific Reports, 13(1), p. 8491. Available at: https://doi.org/10.1038/s41598-023-34791-8.
+
 
 Results
 -------
 
 An RGB-LWIR blend only performs 1–5% behind the RGB approach in predictive power across various altitudes and periods of clear visibility. Yet, RGB fusion with a thermal signature overlay provides edge redundancy and edge emphasis, both which are vital in supporting edge detection machine learning algorithms (especially in low visibility environments). 
 
-## Model performance during night-day periods using the Mean Average Precision (mAP). Confidence intervals reported at 1 standard deviation. 
+#### Model performance during night-day periods using the Mean Average Precision (mAP). Confidence intervals reported at 1 standard deviation. 
 <p align="center">
   <img src="/figures/day_vs_night.png" />
 </p>
